@@ -45,3 +45,21 @@ A quick overview of what’s included. Each page has full YAML, screenshots, and
 - **Advert Counter & Hourly Graph**  
   Increments a counter on every `EventType.ADVERTISEMENT` received, resets it hourly, and graphs the totals using ApexCharts for 48-hour rolling visibility of network activity.  
   → [`Automations/MeshCore-Bot-CountAdverts.md`](Automations/MeshCore-Bot-CountAdverts.md)
+
+  ## 📊 Dashboard Examples
+
+Pre-built Lovelace cards and layout examples for monitoring MeshCore network health and activity.
+
+- **Repeater Voltage**  
+  Graphs live voltage telemetry from one or more repeater nodes over 24h.
+
+- **Repeater TX & RX Utilization**  
+  Shows transmit and receive channel usage to identify congestion or idle nodes.
+
+- **Count of Seen Companions and Repeaters**  
+  Displays how many nodes your network has heard recently using the JSON-based counters.
+
+- **Historical Adverts per Hour**  
+  A 48-hour ApexCharts view showing the total number of adverts received each hour using the Advert Counter automation.
+
+→ [`Dashboards/MeshCore-Dashboard-Examples.md`](Dashboards/MeshCore-Dashboard-Examples.md)
