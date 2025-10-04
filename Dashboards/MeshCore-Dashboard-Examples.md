@@ -174,7 +174,7 @@ layout: vertical
 
 Displays a 48-hour graph of total adverts heard per hour (see automation: **Count Adverts**).
 
-![Adverts Per Hour](Adverts_Hourly.png)
+![Adverts Per Hour](Images/Adverts_Hourly.png)
 
 ```yaml
 type: custom:apexcharts-card
